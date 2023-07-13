@@ -1,0 +1,30 @@
+
+.date-btn{
+    border-radius: 50px;
+    background-color: darkgray;
+}
+.date-btn.active{
+    background-color: red;
+    color: #fff;
+}
+
+.date-btn:hover{
+background-color: #ed3535;
+color: #fff;
+}
+
+.date-btn:active{
+    background-color: #ed3535;
+    color: #fff;
+}
+.match-lists{
+    margin-top: 10px
+}
+.card-header{
+    background-color: #ed3535;
+    color: #fff;
+    font-size: bold;
+}
+.info{
+    cursor: pointer;
+}

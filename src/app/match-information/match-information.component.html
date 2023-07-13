@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="goback">
+                <i class="fas fa-chevron-circle-left" (click)="onclick()"></i>
+            </div>
+            <div class="sub-heading text-white">
+                <h2>Make It A Bed Builder</h2>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="match-time" *ngIf="match">
+                <div *ngFor="let item of match">
+                    {{ item.country}}: {{ item}}
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
